@@ -21,8 +21,8 @@ dependencyOverrides ++= Seq(
 crossSbtVersions := Seq("0.13.17", "1.1.4")
 
 libraryDependencies ++= Seq (
-  "com.fasterxml.jackson.core"        %  "jackson-core"                % "2.9.0",
-  "com.fasterxml.jackson.module"      %% "jackson-module-scala"        % "2.9.0",
+  "com.fasterxml.jackson.core"        %  "jackson-core"                % "2.12.2",
+  "com.fasterxml.jackson.module"      %% "jackson-module-scala"        % "2.12.2",
   // DO NOT UPGRADE: later versions of jgit use Java 7 and we still need to support Java 6
   "org.eclipse.jgit"                  %  "org.eclipse.jgit"            % "3.7.0.201502260915-r",
   //"org.eclipse.jgit"                  %  "org.eclipse.jgit"            % "4.0.1.201506240215-r",
